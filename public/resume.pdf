@@ -1,0 +1,81 @@
+%PDF-1.4
+1 0 obj
+<< /Title (Abhijith P - Resume) /Author (Abhijith P) /Creator (Portfolio) >>
+endobj
+2 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Contents 5 0 R /Resources << /Font << /F1 6 0 R /F2 7 0 R >> >> >>
+endobj
+5 0 obj
+<< /Length 650 >>
+stream
+BT
+/F2 20 Tf
+50 740 Td
+(ABHIJITH P) Tj
+/F1 11 Tf
+0 -24 Td
+(MCA Student & Software Engineer | AI & Machine Learning Specialization) Tj
+0 -16 Td
+(Email: abhijith22abhi22@gmail.com | Phone: +91 8086882805 | Location: Kozhikode, KL) Tj
+0 -16 Td
+(LinkedIn: linkedin.com/in/abhijithp-876431303 | GitHub: github.com/Abhijithabz) Tj
+0 -30 Td
+/F2 13 Tf
+(PROFESSIONAL SUMMARY) Tj
+0 -16 Td
+/F1 10 Tf
+(MCA student specializing in software engineering and machine learning, with hands-on experience) Tj
+0 -14 Td
+(in Python, Django, OpenCV, TensorFlow, and database management.) Tj
+0 -30 Td
+/F2 13 Tf
+(EDUCATION) Tj
+0 -16 Td
+/F1 10 Tf
+(Master of Computer Applications (MCA) - University of Calicut (2024 - 2026)) Tj
+0 -14 Td
+(BSc Computer Science - IHRD College of Applied Science (CGPA: 8.5/10)) Tj
+0 -30 Td
+/F2 13 Tf
+(KEY PROJECTS) Tj
+0 -16 Td
+/F1 10 Tf
+(1. Attendance Register Using Face Recognition (Python, Django, OpenCV, SQL)) Tj
+0 -14 Td
+(2. SmartPaws - AI Pet Care & Breed Detection System (TensorFlow, Flask, OpenCV)) Tj
+0 -30 Td
+/F2 13 Tf
+(TECHNICAL SKILLS) Tj
+0 -16 Td
+/F1 10 Tf
+(Python, Django, OpenCV, TensorFlow, SQL, Java, JavaScript, HTML/CSS, Git) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000093 00000 n 
+0000000142 00000 n 
+0000000201 00000 n 
+0000000332 00000 n 
+0000001035 00000 n 
+0000001104 00000 n 
+trailer
+<< /Size 8 /Root 2 0 R >>
+startxref
+1178
+%%EOF
