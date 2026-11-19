@@ -108,6 +108,8 @@ export default function Hero() {
                 {downloadState === 'downloading' ? 'Downloading...' : downloadState === 'downloaded' ? 'Downloaded!' : 'Download CV'}
               </span>
             </a>
+
+
           </div>
 
           {/* Stat Cards Grid (Horizontal 4-column row) */}

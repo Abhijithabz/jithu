@@ -11,19 +11,103 @@ export const profile = {
   studioPhoto: '/abhijith-studio.png',
   transparentPhoto: '/abhijith-transparent.png',
   education: "MCA '26 · Bangalore University",
-  roles: ['Face Recognition Systems', 'Machine Learning Models', 'Django Backends', 'Web Applications'],
+  roles: ['AI Mobile Applications', 'Machine Learning Models', 'Django Backends', 'Web Applications'],
   resumeSummary:
-    'MCA student specializing in software engineering and machine learning, with hands-on experience in Python, Django, OpenCV, and database management. Skilled in problem-solving, data analysis, and scalable software development.',
+    'MCA student specializing in software engineering, machine learning, and data analytics, with hands-on experience in Python, Django, OpenCV, SQL, and Power BI. Skilled in problem-solving, data analysis, and scalable software development.',
 }
 
 export const stats = [
   { label: 'CGPA', value: '8.5', suffix: '/10' },
-  { label: 'Projects', value: '2', suffix: '+' },
+  { label: 'Projects', value: '4', suffix: '+' },
   { label: 'Certifications', value: '8', suffix: '' },
   { label: 'Years Coding', value: '2', suffix: '+' },
 ]
 
 export const projects = [
+  {
+    title: 'FloraMind AI – AI-Powered Smart Gardening Application',
+    shortTitle: 'FloraMind AI',
+    category: 'AI & Mobile Development',
+    year: '2026',
+    description:
+      'An AI-powered Flutter app for plant species identification, disease detection, and personalized plant-care guidance.',
+    intro:
+      'FloraMind AI is a smart gardening application that helps users understand and care for their plants. It combines on-device image classification with cloud-backed user data to deliver plant identification, disease detection, care guidance, fertilizer recommendations, nursery discovery, and plant health history in one mobile experience.',
+    objectives: [
+      'Identify plant species and detect common plant diseases from images.',
+      'Train a MobileNetV2 transfer-learning model on 47 plant species using Python and Google Colab.',
+      'Deploy the trained model with TensorFlow Lite for on-device predictions in Flutter.',
+      'Provide plant-care guidance and fertilizer recommendations based on plant health.',
+      'Support user accounts, cloud data, and plant health history with Firebase.',
+      'Help users discover nearby nurseries from the mobile application.',
+    ],
+    technologies: [
+      'Flutter',
+      'Dart',
+      'Python',
+      'TensorFlow',
+      'TensorFlow Lite',
+      'MobileNetV2',
+      'Firebase Authentication',
+      'Cloud Firestore',
+      'Firebase Storage',
+    ],
+    highlights: [
+      'Image classification model trained on 47 plant species',
+      'On-device prediction with TensorFlow Lite and MobileNetV2',
+      'Plant-care guidance, fertilizer suggestions, and health history',
+    ],
+    tech: ['Flutter', 'Dart', 'TensorFlow Lite', 'Firebase'],
+    accent: 'green',
+    image:
+      'https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=900&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1512428813834-c702c7702b78?auto=format&fit=crop&w=800&q=80',
+    ],
+  },
+  {
+    title: 'AI Resume Analyzer – AI-Powered Resume Analysis System',
+    shortTitle: 'AI Resume Analyzer',
+    category: 'AI & Web Development',
+    year: '2026',
+    description:
+      'A web application that compares resumes with job descriptions, identifies missing skills, and generates AI-powered improvement suggestions.',
+    intro:
+      'AI Resume Analyzer helps job seekers understand how closely their resumes match a target role. Users can upload a resume, provide a job description, and receive structured analysis covering skills, qualifications, missing keywords, improvement suggestions, and an overall match score.',
+    objectives: [
+      'Allow users to upload resumes in supported document formats.',
+      'Parse skills, education, experience, and qualifications from resume content.',
+      'Analyze job descriptions to identify required skills and keywords.',
+      'Compare resume content with job requirements and calculate a match score.',
+      'Highlight missing skills and keywords that could improve a resume.',
+      'Generate practical AI-powered recommendations for resume improvement.',
+    ],
+    technologies: [
+      'React.js',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'Python',
+      'Django',
+      'MySQL',
+      'Google Gemini API',
+      'Lucide React',
+    ],
+    highlights: [
+      'Resume parsing and job-description keyword analysis',
+      'AI-generated recommendations using the Google Gemini API',
+      'Match score and missing-skills report for targeted improvements',
+    ],
+    tech: ['React.js', 'Python', 'Django', 'Gemini API'],
+    accent: 'cyan',
+    image:
+      'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=900&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=800&q=80',
+    ],
+  },
   {
     title: 'Attendance Register Using Face Recognition',
     category: 'Computer Vision',
@@ -122,6 +206,9 @@ export const skillBars = [
   { name: 'Django', level: 78, color: '#f472b6' },
   { name: 'OpenCV', level: 80, color: '#38bdf8' },
   { name: 'TensorFlow', level: 70, color: '#34d399' },
+  { name: 'Flutter / Dart', level: 72, color: '#38bdf8' },
+  { name: 'Firebase', level: 70, color: '#facc15' },
+  { name: 'Power BI', level: 75, color: '#facc15' },
   { name: 'SQL / MySQL', level: 82, color: '#facc15' },
   { name: 'MS Excel', level: 85, color: '#22c55e' },
   { name: 'Java', level: 68, color: '#fb923c' },
@@ -134,6 +221,10 @@ export const skillTags = [
   { name: 'Java', color: '#f472b6' },
   { name: 'C', color: '#38bdf8' },
   { name: 'SQL', color: '#34d399' },
+  { name: 'Power BI', color: '#facc15' },
+  { name: 'Data Analytics', color: '#34d399' },
+  { name: 'EDA', color: '#38bdf8' },
+  { name: 'Customer Segmentation', color: '#fb923c' },
   { name: 'MS Excel', color: '#22c55e' },
   { name: 'Django', color: '#facc15' },
   { name: 'HTML', color: '#fb923c' },
@@ -142,6 +233,12 @@ export const skillTags = [
   { name: 'MySQL', color: '#38bdf8' },
   { name: 'OpenCV', color: '#34d399' },
   { name: 'TensorFlow', color: '#facc15' },
+  { name: 'TensorFlow Lite', color: '#34d399' },
+  { name: 'Flutter', color: '#38bdf8' },
+  { name: 'Dart', color: '#38bdf8' },
+  { name: 'Firebase', color: '#facc15' },
+  { name: 'React.js', color: '#61dafb' },
+  { name: 'Google Gemini API', color: '#a78bfa' },
   { name: 'Machine Learning', color: '#fb923c' },
   { name: 'Face Recognition', color: '#a78bfa' },
   { name: 'Node.js', color: '#38bdf8' },
@@ -172,6 +269,18 @@ export const timeline = [
     title: 'Master of Computer Applications (MCA)',
     place: 'Soundarya Institute of Management and Science, Bangalore University',
     color: '#a78bfa',
+  },
+  {
+    year: 'Aug 2026 – Sep 2026',
+    title: 'Data Analytics Intern',
+    place: 'Imarticus',
+    color: '#34d399',
+    details: [
+      'Completed a project-based internship in SQL, Python, and Power BI, including guest lectures on EDA and ML-based customer segmentation.',
+      'Wrote SQL queries for data extraction and aggregation and performed data cleaning and exploratory data analysis in Python.',
+      'Worked on E-Commerce Trends Analysis Using SQL and Hotel Reservation projects.',
+      'Built interactive Power BI dashboards for Hotel Reservation and presented all three projects.',
+    ],
   },
 ]
 

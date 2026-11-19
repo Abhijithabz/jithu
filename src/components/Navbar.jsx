@@ -35,8 +35,7 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 md:px-12">
         {/* Left: Brand/Logo */}
         <a href="#home" className="font-heading text-xl font-bold tracking-wide text-white flex items-center gap-2">
-          <span>Abhijith</span>
-          <span className="text-cyan-400">.dev</span>
+          <span>Abhijith P</span>
         </a>
 
         {/* Center: Navigation Links */}

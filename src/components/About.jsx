@@ -65,6 +65,16 @@ export default function About() {
                     <p className="font-mono text-xs text-slate-400">{t.year}</p>
                     <p className="font-heading text-base font-semibold text-white group-hover:text-[#38bdf8] transition-colors">{t.title}</p>
                     <p className="text-sm text-slate-300/80">{t.place}</p>
+                    {t.details?.length > 0 && (
+                      <ul className="mt-2 space-y-1.5 text-xs leading-relaxed text-slate-300/75">
+                        {t.details.map((detail) => (
+                          <li key={detail} className="flex items-start gap-2">
+                            <span className="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-[#34d399]" />
+                            <span>{detail}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
                   </li>
                 ))}
               </ol>
